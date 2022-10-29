@@ -19,7 +19,7 @@ function snakeToCamel(str) {
     // Your code here
     str = str.toLowerCase();
     str = str.split('_');
-    let word = str.map((ele) => {
+    let word = str.map(ele=> {
         let cap = ele[0].toUpperCase();
         let restOfWord = ele.slice(1);
         return cap + restOfWord;
