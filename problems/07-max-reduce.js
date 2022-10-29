@@ -22,7 +22,7 @@ let maxWithReduce = function(nums) {
       maxVal = curr;
     }
     return maxVal;
-  })
+  }, -Infinity);
 };
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
