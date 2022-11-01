@@ -23,7 +23,8 @@ function snakeToCamel(str) {
         let cap = ele[0].toUpperCase();
         let restOfWord = ele.slice(1);
         return cap + restOfWord;
-    })
+    });
+
     return word.join('');
 }
 

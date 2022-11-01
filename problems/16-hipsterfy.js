@@ -20,6 +20,7 @@ let removeLastVowel = function(word) {
 
 let hipsterfy = function(sentence) {
     // Your code here
+
 };
 
 // alternative solution using Array.map
@@ -33,4 +34,4 @@ try {
     module.exports = hipsterfy;
 } catch (e) {
     module.exports = null;
-}
+}

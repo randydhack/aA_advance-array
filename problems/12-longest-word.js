@@ -25,7 +25,6 @@ let longestWord = function(sentence) {
 
     words.forEach(ele => {
         if (ele.length > longest) {
-
             longest = ele.length;
             str = ele;
         }
